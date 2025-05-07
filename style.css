@@ -1,0 +1,135 @@
+
+    body {
+        background: url('background.jpeg') no-repeat center center fixed;
+        background-size: 100% 100%;
+        color: white;
+        margin: 0;
+        font-family: Arial,sans-serif;
+        font-size: 18px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+    body.dark-mode {
+        background: url('cosmic-panorama-space-background-photo_960396-29376.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: white;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+
+    }
+    #toggle-dark-mode {
+        margin: 10px;
+        padding: 5px;
+        cursor: pointer;
+        background-color: black;
+        border: 5px solid grey;
+        border-radius: 5px;
+        transition: all 0.3s smooth;
+    }
+    #goToTop {
+        background-color: rgb(31, 31, 31);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        cursor: pointer;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    #goToTop:hover {
+        background-color: rgb(31, 31, 31);
+    }
+    #scrollPercentage {
+        position: fixed;
+        bottom: 90px;
+        right: 20px;
+        background-color: rgb(31, 31, 31);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    #floatingControls {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .hero {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .hero .greeting {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .hero .name-animation {
+        font-size: 48px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .hero .title {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    section {
+    scroll-margin-top: 80px;
+}
+    .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black outline */
+    background-image: linear-gradient(to right, #B89B6F, #5F2E1B); 
+    filter: brightness(0.9); 
+    transform: skew(-5deg); 
+    border: 4px solid rgba(157, 157, 157, 0.596);
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background-image: linear-gradient(to right, #278cf1, #ff8400); 
+    filter: brightness(0.9); 
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+    a:hover img {
+                    transform: scale(1.2);
+                }
+                a:hover {
+                    transform: scale(1.1);
+                }
+
