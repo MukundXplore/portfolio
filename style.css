@@ -14,7 +14,7 @@
         padding: 10px;
     }
     body.dark-mode {
-        background: url('cosmic-panorama-space-background-photo_960396-29376.jpg') no-repeat center center fixed;
+        background: url('background_dark.jpg') no-repeat center center fixed;
         background-size: cover;
         color: white;
         margin: 0;
