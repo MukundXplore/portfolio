@@ -6,6 +6,7 @@
 **Integrated Dual Degree BTech-MTech, CSE - Class of 2029**
 
 **SAU/CS/DMTECH(CSE)/2024/13**
+Visit my [LinkedIn](https://www.linkedin.com/in/mukund-prasad/) 
 
 # Repository: Mukund Prasad - MukundXplore's Portfolio 
 (Integrated Dual Degree BTech-MTech, CSE - Semester 2)
